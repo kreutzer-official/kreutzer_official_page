@@ -1,0 +1,39 @@
+body{
+	background-color: #000000
+	}
+img{
+	margin:0 auto;
+	width:799;
+	height:350;
+	}
+div#wrapper {  
+    width: 800px;  
+    margin: 0 auto;  
+	}
+h1{
+	background-color:#000000;
+	font-color:#FFFFFF;
+	margin: 0 auto;
+}
+a{/*リンクされた文字*/
+    color:#FFFFFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:link {/*未訪問のリンク*/
+    color:#FFFFFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:visited {/*訪問後のリンク*/
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+a:hover {/*マウスをのせたとき*/
+    color:#FFFFFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:active {/*クリック中*/
+    text-decoration:none;
+}
